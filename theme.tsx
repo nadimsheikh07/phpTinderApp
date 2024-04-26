@@ -1,6 +1,11 @@
 import {extendTheme} from 'native-base';
 
 export const theme = extendTheme({
+  brand: {
+    900: '#8287af',
+    800: '#7c83db',
+    700: '#b3bef6',
+  },
   colors: {
     // Add new color
     primary: {
@@ -19,9 +24,5 @@ export const theme = extendTheme({
     amber: {
       400: '#d97706',
     },
-  },
-  config: {
-    // Changing initialColorMode to 'dark'
-    initialColorMode: 'dark',
   },
 });
